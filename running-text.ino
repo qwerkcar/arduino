@@ -1,4 +1,3 @@
-//Subscribe Channel Youtube AJTekno
 #include <MD_Parola.h>
 #include <MD_MAX72xx.h>
 #include <SPI.h>
@@ -23,9 +22,6 @@
 #define PRINTX(x)
 #endif
 
-// Define the number of devices we have in the chain and the hardware interface
-// NOTE: These pin numbers will probably not work with your hardware and may
-// need to be adapted
 #define HARDWARE_TYPE MD_MAX72XX::PAROLA_HW
 #define MAX_DEVICES 4
 #define CLK_PIN   13
@@ -54,7 +50,7 @@ uint16_t scrollPause = 2000; // in milliseconds
 // Global message buffers shared by Serial and Scrolling functions
 #define  BUF_SIZE  75
 char curMessage[BUF_SIZE] = { "" };
-char newMessage[BUF_SIZE] = { "Tasya" };
+char newMessage[BUF_SIZE] = { "Test Bro" };
 bool newMessageAvailable = true;
 
 #if USE_UI_CONTROL
