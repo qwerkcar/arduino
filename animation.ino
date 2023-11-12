@@ -1,21 +1,3 @@
-// Use the MD_MAX72XX library to Display a Daft Punk LED Helmet
-//
-// If RUN_DEMO is set to zero the display cycles changes triggered by a switch on
-// the MODE_SWITCH pin. This can be substituted for any trigger as implemented
-// by the helmet wearer.
-// If RUN_DEMO is set to 1 the sketch will cycle each element of the display every
-// DEMO_DELAY seconds, without the need for a switch.
-//
-// Uses the MD_UISwitch library found at https://github.com/MajicDesigns/MD_UISwitch
-
-/* CONNECTIONS :--
- *VCC       5V of Arduino 
- *GND       Gnd of Arduino 
- *CLK PIN   Pin 13  
- *DATA PIN  Pin 11  
- *CS PIN    Pin 10  */
-
-
 #define RUN_DEMO  1
 
 #include <MD_MAX72xx.h>
